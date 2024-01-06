@@ -14,7 +14,6 @@ dependencies:
     sdk: flutter
   hl_image_picker_platform_interface: ^1.2.3
   hl_image_picker_ios: ^1.2.8
-  hl_image_picker_android: ^1.2.7
 
 dev_dependencies:
   flutter_test:
@@ -25,7 +24,5 @@ dev_dependencies:
 flutter:
   plugin:
     platforms:
-      android:
-        default_package: hl_image_picker_android
       ios:
         default_package: hl_image_picker_ios
